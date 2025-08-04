@@ -9,27 +9,27 @@
       <legend>Student's User Personal Information</legend>
 
       <label for="name">Full Name:</label>
-      <input type="text" id="name" name="name" placeholder="John Doe" required autocomplete="name" maxlength="50" /><br>
+      <input type="text" id="name" name="name" placeholder="John Doe" required autocomplete="name" maxlength="50"><br>
 
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="name@example.com" required autocomplete="email" /><br>
+      <input type="email" id="email" name="email" placeholder="name@example.com" required autocomplete="email"><br>
 
       <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="e.g. 09123456789" /><br>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="e.g. 09123456789"><br>
 
       <label>Gender:</label>
       <div class="gender-group">
-        <input type="radio" name="gender" value="male" id="male" required />
+        <input type="radio" name="gender" value="male" id="male" required>
         <label for="male">Male</label>
-        <input type="radio" name="gender" value="female" id="female" />
+        <input type="radio" name="gender" value="female" id="female">
         <label for="female">Female</label>
-        <input type="radio" name="gender" value="others" id="others" />
+        <input type="radio" name="gender" value="others" id="others">
         <label for="others">Others</label>
       </div><br>
       <label for="dob">Date of Birth:</label>
-      <input type="date" id="dob" name="dob" min="1900-01-01" max="2025-12-31" required /><br>
+      <input type="date" id="dob" name="dob" min="1900-01-01" max="2025-12-31" required><br>
       <label for="address">Full Address:</label>
-      <input type="text" id="address" name="address" placeholder="Street, City, Province" maxlength="100" /><br>
+      <input type="text" id="address" name="address" placeholder="Street, City, Province" maxlength="100"><br>
       <label for="status">Civil Status:</label>
       <select id="status" name="status">
         <option value="single" selected>Single</option>
@@ -37,9 +37,9 @@
         <option value="widowed">Widowed</option>
       </select><br><br>
       <label for="readonly">Occupation:</label>
-      <input type="text" id="readonly" value="Student" readonly /><br>
+      <input type="text" id="readonly" value="Student" readonly><br>
       <label for="disabled">School:</label>
-      <input type="text" id="disabled" value="Unida Christian Colleges" disabled /><br><br>
+      <input type="text" id="disabled" value="Unida Christian Colleges" disabled/><br><br>
       <button type="submit" onclick="alert('Form Submitted!')">Submit</button>
     </fieldset>
   </form>
